@@ -134,10 +134,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                         We built the GUI using <strong>PyQt5</strong> on a Raspberry Pi. The interface lets users start runs, monitor
                         progress, and review results. Here's a short demonstration video of the GUI in action.
                       </p>
-                      <video controls className="w-full rounded-lg">
-                        <source src="/images/pcr_3.mp4" />
-                        Your browser does not support HTML5 video.
-                      </video>
+                        <img src="/images/pcr_3.gif" alt="HPV duplication across 30 thermal cycles" className="rounded-lg" />
                     </div>
 
                     {/* Image Processing & Thermal Control */}
